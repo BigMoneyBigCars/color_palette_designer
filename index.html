@@ -7,6 +7,53 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <label>Select Color <input id="selectColor" type="color"/></label>
+
+    <form id="buttons">
+      <label for="analogous"><input id="analogous" type="radio" name="colortype" value="analogous" /> Analogous</label>
+      <label for="monochromatic"><input id="monochromatic" type="radio" name="colortype" value="monochromatic" />Monochromatic</label>
+      <label for="triad"><input id="triad" type="radio" name="colortype" value="triad" />Triad </label>
+      <label for="complementary"><input id="complementary" type="radio" name="colortype" value="complementary" /> Complementary</label>
+      <label for="compound"><input id="compound" type="radio" name="colortype" value="compound" />Compound </label>
+      <label for="shades"><input id="shades" type="radio" name="colortype" value="shades" /> Shades</label>
+    </form>
+
+    <div id="color_container">
+      <div class="color_box1 box">
+        <div class="color1"></div>
+        <p class="hex">HEX:</p>
+        <p class="rgb">RGB:</p>
+        <p class="hsl">HSL</p>
+      </div>
+      <div class="color_box2 box">
+        <div class="color2"></div>
+        <p class="hex">HEX:</p>
+        <p class="rgb">RGB:</p>
+        <p class="hsl">HSL</p>
+      </div>
+
+      <div class="color_box3 box">
+        <div class="baseColor"></div>
+        <p class="hex">HEX:</p>
+        <p class="rgb">RGB:</p>
+        <p class="hsl">HSL</p>
+      </div>
+
+      <div class="color_box4 box">
+        <div class="color4"></div>
+        <p class="hex">HEX:</p>
+        <p class="rgb">RGB:</p>
+        <p class="hsl">HSL</p>
+      </div>
+
+      <div class="color_box5 box">
+        <div class="color5"></div>
+        <p class="hex">HEX:</p>
+        <p class="rgb">RGB:</p>
+        <p class="hsl">HSL</p>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

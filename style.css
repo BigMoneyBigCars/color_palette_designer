@@ -28,7 +28,6 @@
 .box {
   flex-grow: 1;
   flex-basis: 100px;
-  background-color: red;
   border: 2px solid black;
   padding: 2em;
 }
@@ -38,10 +37,11 @@
   flex-direction: column;
 }
 
-body {
-  padding-top: 200px;
+main {
   margin: 0 auto;
   max-width: 1180px;
+  padding-top: 200px;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -62,4 +62,20 @@ body {
 
 .value-container {
   background-color: white;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(49, 48, 48);
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
 }
